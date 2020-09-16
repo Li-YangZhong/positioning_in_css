@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .containing-block {
+            text-align: center;
+            font-size: 2rem;
+            width: 500px;
+            height: 400px;
+            background: lightblue;
+            position: relative;
+            padding: 20px;
+            border: 1px solid #000;
+            display: block;
+        }
+     
+        .positioned-element{
+            background: lightyellow;
+            position: absolute;
+            top: 50%; 
+            bottom: -2em; 
+            left: 75%; 
+            right: -7em;
+        }
+        /* .positioned-element{
+            background: lightyellow;
+            top: 50%;
+            left: 50%;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="containing-block">
+        <p>Containing Block</p>
+        <div class="positioned-element">
+            <p>Positioned Element</p>
+        </div>
+    </div>
+</body>
+
+</html>

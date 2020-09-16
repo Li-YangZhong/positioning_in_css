@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#sidebar {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 25%;
+            height: 7em;
+            background: #BBB;
+            /* overflow: visible; */
+            /* overflow: scroll; */
+            /* overflow: hidden; */
+            overflow: auto;
+        }
+
+        em.trans {
+            visibility: hidden;
+            border: 3px solid gray;
+            background: silver;
+            margin: 2em;
+            padding: 1em;
+        }
+
+        p.clear {
+            /* visibility: hidden; */
+            visibility: collapse;
+        }
+
+        p.clear em {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sidebar">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi porro maxime corrupti a quidem officiis id
+        illum temporibus incidunt sequi dicta ipsam, explicabo exercitationem qui quam nisi placeat, illo deleniti
+        voluptate. Dicta illum nulla magnam eius eligendi nemo eaque ullam, debitis, id, voluptatem natus nisi ad a. Nam
+        tempore vero, illum quibusdam ducimus esse voluptates amet, est neque natus illo modi enim eligendi velit
+        possimus adipisci dicta magnam, perspiciatis corrupti? Voluptas, neque ad. Consequatur dignissimos ipsam cumque
+        quisquam culpa fuga totam alias earum voluptatum atque aliquam, perferendis accusamus doloribus assumenda veniam
+        aliquid. Praesentium, accusamus saepe. Consequuntur veritatis quidem ullam repudiandae.
+    </div>
+
+    <p class="clear">
+        This is a paragraph which should be visible. Nulla bereaconsuetudium ohio
+        city, mutationem dolore. <em class="trans">Humanitatis molly shannon ut lorem.</em> Doug dieken dolor possim
+        south euclid.
+    </p>
+</body>
+
+</html>

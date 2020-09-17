@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div#header {
+            position: fixed;
+            top: 0;
+            bottom: 80%;
+            left: 20%;
+            right: 0;
+            background: gray;
+        }
+
+        div#sidebar {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 80%;
+            background: silver;
+        }
+
+        div#main {
+            position: absolute;
+            top: 20%;
+            bottom: 0;
+            left: 20%;
+            right: 0;
+            overflow: scroll;
+            background: white;
+        } */
+
+        body {
+            background: black;
+            color: silver;
+        }
+
+        /* colors for safety's sake */
+        div#header {
+            position: fixed;
+            top: 0;
+            bottom: 80%;
+            left: 20%;
+            right: 0;
+            background: gray;
+            margin-bottom: 2px;
+            color: yellow;
+        }
+
+        div#sidebar {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 80%;
+            background: silver;
+            margin-right: 2px;
+            color: maroon;
+        }
+
+        div#main {
+            position: absolute;
+            top: 20%;
+            bottom: 0;
+            left: 20%;
+            right: 0;
+            overflow: auto;
+            background: white;
+            color: black;
+        }
+
+        #footer {
+            position: fixed;
+            bottom: 0;
+            width: 80%;
+            height: auto;
+            background: silver;
+            margin: 0 auto;
+            display: flex;
+            /* z-index: -1; */
+            color: #000;
+            left: 20%;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <p>header</p>
+        <h1>masthead</h1>
+    </div>
+    <div id="sidebar">
+        <p>sidebar</p>
+        <ul>
+            <li>link:one</li>
+            <li>link:two</li>
+            <li>link:three</li>
+            <li>link:four</li>
+            <li>link:five</li>
+        </ul>
+    </div>
+    <div id="main">
+        <p>main</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis optio rem, quod totam quam deserunt vitae
+            ullam! Rerum reprehenderit ea vero nam quae magni, qui earum at minus ratione unde animi quam omnis
+            voluptatem repudiandae eaque excepturi nulla est voluptate ullam vel! Porro, ab? Dolor mollitia nisi
+            corporis odit ab!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur id illo, rem et explicabo quae sed nemo
+            quasi, ut accusamus similique! Illum sapiente numquam modi inventore quos, possimus facere accusantium
+            commodi? Quibusdam ut quidem alias laboriosam natus, accusantium enim nam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, repellat. Molestiae, sed? Vero quis rem
+            quos recusandae dignissimos! Dolore possimus deleniti sapiente praesentium corrupti repellendus natus eum
+            vitae ducimus! A.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique explicabo veritatis deleniti eius,
+            excepturi doloribus numquam dolor debitis officia hic et labore magni harum velit amet reprehenderit sed,
+            tempore vitae in blanditiis perspiciatis sunt ducimus saepe. Quae neque laudantium minus nisi? Dolore a
+            voluptatem maxime.</p>
+    </div>
+    <div id="footer">
+        <p>This is a footer</p>
+    </div>
+</body>
+
+</html>
